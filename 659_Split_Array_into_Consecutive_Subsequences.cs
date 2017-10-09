@@ -3,7 +3,7 @@
  * is less than 1. 
  * Secondly, in every block, keep recording the count of current 'ones' array and 'twos' arrays,
  * which means the arrays that have 1 or 2 elements (cannot be individual array because length less than 3)
- * In each steps, check if incoming number is enough to append 'ones' and 'twos', eg, [1] & [1,2] needs at least
+ * In each steps, check if incoming number is enough to append 'ones' and 'twos', eg, [2] & [1,2] needs at least
  * 2 '3's to be valid. If not enough num, return false. After checking one block, check if 'ones' & 'twos' are zero
  * length
  */
